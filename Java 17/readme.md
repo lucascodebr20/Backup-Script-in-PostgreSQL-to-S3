@@ -20,11 +20,10 @@ Copy the script file into your project (for example: ScriptBackup.java).
 Environment Variables
 Configure the following environment variables:
 
-```bash
-AWS_ACCESS_KEY_ID=your_aws_access_key
-AWS_SECRET_ACCESS_KEY=your_aws_secret_key
-DB_USERNAME=your_database_username
-DB_PASSWORD=your_database_password
+AWS_ACCESS_KEY_ID=your_aws_access_key  
+AWS_SECRET_ACCESS_KEY=your_aws_secret_key  
+DB_USERNAME=your_database_username  
+DB_PASSWORD=your_database_password  
 
 ### Adjust the parameters inside the script:
 
