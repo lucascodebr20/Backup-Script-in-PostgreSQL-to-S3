@@ -2,7 +2,7 @@
 This folder contains the Java implementation of the backup script.
 It was built to be easily integrated into any Java project, using AWS SDK v2 to upload backups directly to Amazon S3.
 
-## 📦 Dependencies
+##📦 Dependencies
 Add the following dependency to your pom.xml:
 
 <dependency>
