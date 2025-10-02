@@ -1,7 +1,6 @@
 # 📦 Script Backup Collection  
 
-This repository contains a collection of **single-file backup scripts** written in different programming languages.  
-Each script is designed to be **easily integrated into your project** without relying on external tools or complex setups.  
+This repository contains a collection of **single-file backup scripts** written in different programming languages.  Each script is designed to be **easily integrated into your project** without relying on external tools or complex setups.  
 
 ---
 
