@@ -38,7 +38,7 @@ The goal of this repository is to provide a set of **plug-and-play backup script
 
 Thanks to everyone who contributed to this project:  
 
-- [Lucas (Creator)](https://github.com/) 🚀  
+- [Lucas (Creator)](https://github.com/) 
 
 ---
 
