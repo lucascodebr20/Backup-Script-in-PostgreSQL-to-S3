@@ -28,13 +28,16 @@ DB_USERNAME = your_database_username
 
 DB_PASSWORD = your_database_password
 
-Script Parameters
 Adjust the parameters inside the script:
 
 nameDataBase → Database name
+
 bucketName → Your S3 bucket name
+
 nameFileBackup → Prefix for backup file name
+
 backupIntervalMinutes → Interval between backups (in minutes)
+
 limitBackup → Number of backups to keep (set 0 for unlimited)
 
 ### ▶️ Usage
