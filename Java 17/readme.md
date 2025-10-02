@@ -2,7 +2,7 @@
 This folder contains the Java implementation of the backup script.
 It was built to be easily integrated into any Java project, using AWS SDK v2 to upload backups directly to Amazon S3.
 
-##📦 Dependencies
+### 📦 Dependencies
 Add the following dependency to your pom.xml:
 
 <dependency>
@@ -13,7 +13,7 @@ Add the following dependency to your pom.xml:
 
 💡 If you are using Gradle, you can adapt this dependency format accordingly.
 
-## ⚙️ Setup
+### ⚙️ Setup
 
 Copy the script file into your project (for example: ScriptBackup.java).
 
@@ -36,7 +36,7 @@ nameFileBackup → Prefix for backup file name
 backupIntervalMinutes → Interval between backups (in minutes)
 limitBackup → Number of backups to keep (set 0 for unlimited)
 
-## ▶️ Usage
+### ▶️ Usage
 
 Instantiate the script when your project starts. For example:
 
@@ -54,7 +54,7 @@ Generate a PostgreSQL backup using pg_dump.
 Upload it to your configured Amazon S3 bucket.
 Automatically manage old backups if you set a limit.
 
-✅ Notes
+### ✅ Notes
 
 By default, backups are saved to the /tmp folder.
 On Windows, you should change this path to a directory of your choice.
