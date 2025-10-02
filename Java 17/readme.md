@@ -37,14 +37,13 @@ DB_PASSWORD=your_database_password
 
 Instantiate the script when your project starts. For example:
 
-Java
-
+**```java
 public class MainApp {
     public static void main(String[] args) {
         ScriptBackup backup = new ScriptBackup();
         backup.start(); // Starts the scheduled backup task
     }
-}
+}```
 
 Once the project runs, the script will:
 Generate a PostgreSQL backup using pg_dump.
