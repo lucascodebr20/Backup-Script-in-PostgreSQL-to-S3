@@ -16,6 +16,18 @@ Instead, I created a **Java version** that could be dropped directly into the pr
 
 ---
 
+## ⚠️ Disclaimer
+
+**Important:** These scripts use `pg_dump` to create full database dumps and upload them to external storage.
+
+**Sensitive data warning:** Only use these scripts if your database **does not contain sensitive or confidential information**, as the dump is **not encrypted by default**.
+
+**Database size limitation:** These scripts are **not suitable for very large databases**, since every run produces a full dump and can heavily load your server.
+
+**Production recommendation:** For production environments, consider PostgreSQL's **continuous backup features**, WAL-based tools (like `wal-e`/`wal-g`), or full-featured solutions like [pgBackRest](https://pgbackrest.org/) to handle **incremental backups** and **point-in-time recovery** efficiently.
+
+These scripts are mainly intended for **small home-lab projects or non-critical databases** where simplicity i
+
 ## 📂 Structure  
 
 Each folder contains a script written in a different language.  
