@@ -21,8 +21,11 @@ Environment Variables
 Configure the following environment variables:
 
 AWS_ACCESS_KEY_ID = your_aws_access_key
+
 AWS_SECRET_ACCESS_KEY = your_aws_secret_key
+
 DB_USERNAME = your_database_username
+
 DB_PASSWORD = your_database_password
 
 Script Parameters
